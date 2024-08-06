@@ -13,6 +13,7 @@ The scope of this project is to use all the SQL knowledge gained throughout the 
   
 
 You can find below the database schema that was generated through Reverse Engineer and which contains all the tables and the relationships between them.
+
 [<img src="reverseengineer.png">](https://github.com/harkonenn-git/Proiect-final-IT-Factory/blob/main/reverseengineer.png)
 
 The tables are connected in the following way:
