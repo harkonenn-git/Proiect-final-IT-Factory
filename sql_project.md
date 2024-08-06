@@ -9,7 +9,7 @@ The scope of this project is to use all the SQL knowledge gained throughout the 
 
 **Database description:** The purpose of the HRDatabase is to manage employees, departments, performance bonuses, training sessions, and the trainees who will participate in the training sessions.
 
-1.  **Database Schema**
+ **Database Schema**
   
 
 You can find below the database schema that was generated through Reverse Engineer and which contains all the tables and the relationships between them.
@@ -24,7 +24,7 @@ The tables are connected in the following way:
 *   **Employees** is connected with **Training** through a **many-to-many** relationship which was implemented with **TrainingEmployees** as a linking (or junction) table as follows: `Employees.EmployeeID` and `Training.TrainingID` as primary keys, `TrainingEmployees.EmployeeID` and `TrainingEmployees.TrainingID` as foreign keys.
 
   
-7.  **Database Queries**
+**Database Queries**
   
 
 1.  **DDL (Data Definition Language)**
@@ -91,7 +91,7 @@ After the database and the tables have been created, a few `ALTER` instructions 
     MODIFY COLUMN Salary DECIMAL(12, 2) DEFAULT 50000.00;
                 
 
-6.  **DML (Data Manipulation Language)**
+2.  **DML (Data Manipulation Language)**
 
 In order to be able to use the database I populated the tables with various data necessary in order to perform queries and manipulate the data. In the testing process, this necessary data is identified in the Test Design phase and created in the Test Implementation phase. Below you can find all the insert instructions that were created in the scope of this project:
 
@@ -150,7 +150,7 @@ After the insert, in order to prepare the data to be better suited for the testi
     UPDATE Employees SET Salary = 58000 WHERE EmployeeID = 1;
                 
 
-11.  **DQL (Data Query Language)**
+3.  **DQL (Data Query Language)**
 
 After the testing process, I deleted the data that was no longer relevant in order to preserve the database clean:
 
@@ -212,6 +212,6 @@ In order to simulate various scenarios that might happen in real life I created 
     GROUP BY DepartmentID HAVING AVG(Salary) > 50000;
                 
 
-16.  **Conclusions**
+  **Conclusions**
 
 This project enhanced my understanding of SQL by applying the concepts learned in the Manual Testing course to create, manage, and manipulate a relational database. I learned how to define complex database structures using DDL commands, efficiently manage data using DML commands, and extract meaningful information using advanced DQL commands. Additionally, I gained practical experience in designing a normalized database schema, implementing relationships between tables, and writing advanced queries to handle real-world scenarios. This comprehensive exercise has significantly improved my database management and SQL query writing skills.
