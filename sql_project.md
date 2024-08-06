@@ -1,5 +1,3 @@
-  Database Project for HRDatabase body { font-family: Arial, sans-serif; line-height: 1.6; } h1 { color: #333; } ol, ul { margin-left: 20px; } code { background-color: #f4f4f4; border: 1px solid #ddd; padding: 2px 4px; border-radius: 4px; } pre { background-color: #f4f4f4; border: 1px solid #ddd; padding: 10px; border-radius: 4px; overflow-x: auto; }
-
 Database Project for HRDatabase
 ===============================
 
