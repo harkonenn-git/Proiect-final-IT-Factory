@@ -2,7 +2,7 @@
 
 I’m naturally detail-oriented, which means I notice even the smallest inconsistencies or bugs that might be missed by others. My curiosity drives me to understand how everything works and to dig into potential weaknesses or edge cases. I’m patient and persistent, willing to tackle repetitive tasks and long hours of investigation to ensure thorough coverage.
 
-I approach problems with a critical mindset, questioning assumptions and exploring various angles to identify underlying issues. Effective communication is crucial for me—I clearly articulate problems, document my findings, and collaborate closely with developers and other team members to resolve issues.
+I approach problems with a critical mindset, questioning assumptions and exploring various angles to identify underlying issues. Effective communication is crucial for me. I clearly articulate problems, document my findings, and collaborate closely with developers and other team members to resolve issues.
 
 I’m adaptable, embracing new tools, technologies, and methodologies as they evolve alongside the development process. My passion for quality drives me to ensure that the final product is reliable and user-friendly. Even though I often work independently, I value teamwork and understand that collaboration is key to successful software development.
 
@@ -14,7 +14,7 @@ I’m adaptable, embracing new tools, technologies, and methodologies as they ev
 
 ## Skills:
 
-### Manual Testing: [***Certificate*](https://github.com/harkonenn-git/Certificates/blob/main/QASoftwareTester.pdf)<br>
+### Manual Testing: [***Certificate***](https://github.com/harkonenn-git/Certificates/blob/main/QASoftwareTester.pdf)<br>
 
 As a manual tester, I ensure software quality through thorough hands-on testing methods. I start by understanding the software requirements and specifications, allowing me to create detailed test plans and comprehensive test cases for all scenarios. By manually executing these test cases, I simulate user behavior to identify bugs and inconsistencies, documenting each step and providing detailed descriptions to help developers address issues efficiently. My keen eye for detail and understanding of user perspectives help me identify usability issues that automated tests might miss. I continually update my skills to stay current with new testing tools and methodologies. Overall, my experience enables me to deliver high-quality software products through meticulous testing coverage.
 
@@ -94,7 +94,7 @@ Reporting and Analytics: Write complex queries for reports and data analysis.
 Conclusion
 My MySQL experience equips me to manage and query databases effectively, perform thorough data validations, and ensure robust and efficient database testing practices, contributing to high-quality and reliable software applications.
 
-### Automated Testing and Python Programming: [**Certificate**](https://github.com/harkonenn-git/Certificates/blob/main/QAAutomationTester.pdf)
+### Automated Testing and Python Programming: [***Certificate***](https://github.com/harkonenn-git/Certificates/blob/main/QAAutomationTester.pdf)
 Automated Testing
 Tools and Frameworks: Proficient with Selenium for web application testing, pytest and unittest for writing test cases
 Test Development and Execution: Skilled in writing and maintaining robust test scripts, managing test data, implementing error handling, and generating detailed test reports. 
