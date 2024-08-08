@@ -21,7 +21,7 @@ The tables are connected in the following way:
 *   **Departments** is connected with **Employees** through a **one-to-many** relationship which was implemented through `Departments.DepartmentID` as a primary key and `Employees.DepartmentID` as a foreign key.
 *   **Departments** is connected with **Projects** through a **one-to-many** relationship which was implemented through `Departments.DepartmentID` as a primary key and `Projects.DepartmentID` as a foreign key.
 *   **Employees** is connected with **Projects** through a **many-to-many** relationship which was implemented with **EmployeeProjects** as a linking (or junction) table as follows: `Employees.EmployeeID` and `Projects.ProjectID` as primary keys, `EmployeeProjects.EmployeeID` and `EmployeeProjects.ProjectID` as foreign keys.
-*   **Employees** is connected with **Training** through a **many-to-many** relationship which was implemented with **TrainingEmployees** as a linking (or junction) table as follows: `Employees.EmployeeID` and `Training.TrainingID` as primary keys, `TrainingEmployees.EmployeeID` and `TrainingEmployees.TrainingID` as foreign keys.
+*   **Employees** is connected with **Training** through a **many-to-many** relationship which was implemented with **EmployeeTraining** as a linking (or junction) table as follows: `Employees.EmployeeID` and `Training.TrainingID` as primary keys, `EmployeeTraining.EmployeeID` and `EmployeeTraining.TrainingID` as foreign keys.
 
   
 **Database Queries**
